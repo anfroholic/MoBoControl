@@ -3029,6 +3029,10 @@
     (stroke (width 0) (type default))
     (uuid e7f9328f-c02e-486c-aeed-5ae6e6934ae7)
   )
+  (wire (pts (xy 478.155 -113.665) (xy 484.505 -113.665))
+    (stroke (width 0) (type default))
+    (uuid ea69bede-3435-416d-92ef-95a11e225305)
+  )
   (wire (pts (xy 17.907 171.45) (xy 21.59 171.45))
     (stroke (width 0) (type default))
     (uuid eaea895e-9b04-43db-979b-53ab9aaf6d66)
@@ -3203,6 +3207,10 @@
   (label "LFRAME" (at 487.68 -106.045 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 27adbffc-9a07-464d-9b79-98df267a5bb1)
+  )
+  (label "LED" (at 484.505 -113.665 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 2b56f97f-1c62-4c26-b762-c2e44c805d30)
   )
   (label "E_GPB5" (at 386.08 97.79 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
@@ -3618,7 +3626,7 @@
   (symbol (lib_id "power:+5V") (at 423.545 -50.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b592b2e-374f-4c24-82fc-aacf9ec7ec96)
-    (property "Reference" "#PWR0142" (at 423.545 -46.355 0)
+    (property "Reference" "#PWR0143" (at 423.545 -46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 423.545 -54.2981 0)
@@ -3634,7 +3642,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0142") (unit 1)
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
@@ -4007,7 +4015,7 @@
   (symbol (lib_id "Device:R_Small") (at 247.015 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23cdd194-b8be-4e19-b151-af3b9f65ec86)
-    (property "Reference" "R132" (at 248.92 36.83 0)
+    (property "Reference" "R133" (at 248.92 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 248.92 39.37 0)
@@ -4024,7 +4032,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "R132") (unit 1)
+          (reference "R133") (unit 1)
         )
       )
       (project "zorg_dmx_w_rtc"
@@ -4309,7 +4317,7 @@
   (symbol (lib_id "power:GND") (at 434.34 -147.955 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32159f2c-dcde-4090-b5b5-ea789c524227)
-    (property "Reference" "#PWR0145" (at 434.34 -141.605 0)
+    (property "Reference" "#PWR0146" (at 434.34 -141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 434.34 -143.8219 0)
@@ -4325,7 +4333,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0145") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -4395,7 +4403,7 @@
   (symbol (lib_id "power:GND") (at 441.325 -147.955 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39089a09-8ee4-48ca-a669-9d67c26117f1)
-    (property "Reference" "#PWR0147" (at 441.325 -141.605 0)
+    (property "Reference" "#PWR0148" (at 441.325 -141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 441.325 -143.8219 0)
@@ -4411,7 +4419,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0147") (unit 1)
+          (reference "#PWR0148") (unit 1)
         )
       )
     )
@@ -4420,7 +4428,7 @@
   (symbol (lib_id "power:GND") (at 401.32 -80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39dc8a82-fda3-4712-8006-f3d954fd2626)
-    (property "Reference" "#PWR0140" (at 401.32 -73.66 0)
+    (property "Reference" "#PWR0141" (at 401.32 -73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 401.32 -75.8769 0)
@@ -4436,7 +4444,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -4445,7 +4453,7 @@
   (symbol (lib_id "power:GND") (at 476.885 17.145 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bf3ee77-8692-4ba3-9610-9841d95aeb1b)
-    (property "Reference" "#PWR0148" (at 476.885 23.495 0)
+    (property "Reference" "#PWR0149" (at 476.885 23.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 476.885 21.2781 0)
@@ -4461,7 +4469,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0148") (unit 1)
+          (reference "#PWR0149") (unit 1)
         )
       )
     )
@@ -4779,7 +4787,7 @@
   (symbol (lib_id "power:GND") (at 257.175 118.11 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55923a1b-e58f-4c03-aea9-024341117f25)
-    (property "Reference" "#PWR0151" (at 257.175 124.46 0)
+    (property "Reference" "#PWR0134" (at 257.175 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 257.048 122.5042 0)
@@ -4791,11 +4799,11 @@
     (property "Datasheet" "" (at 257.175 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4256ee66-1a7a-46ad-8f9f-68aeee09c7b5))
+    (pin "1" (uuid 7db67e64-2f09-4c64-bd29-00bbd97fbaa2))
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0151") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
       (project "zorg_dmx_w_rtc"
@@ -4903,7 +4911,7 @@
   (symbol (lib_id "power:GND") (at 421.64 19.685 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60d39392-f507-4602-9218-6220232e912f)
-    (property "Reference" "#PWR0141" (at 421.64 26.035 0)
+    (property "Reference" "#PWR0142" (at 421.64 26.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 421.64 23.8181 0)
@@ -4919,7 +4927,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -4949,7 +4957,7 @@
       )
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0138") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -5118,7 +5126,7 @@
   (symbol (lib_id "power:+5V") (at 483.235 -135.255 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ad3b7c9-4769-447e-b55d-d6ab45c5ef8e)
-    (property "Reference" "#PWR0149" (at 483.235 -131.445 0)
+    (property "Reference" "#PWR0150" (at 483.235 -131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 483.235 -139.3881 0)
@@ -5134,7 +5142,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0149") (unit 1)
+          (reference "#PWR0150") (unit 1)
         )
       )
     )
@@ -5538,7 +5546,7 @@
       )
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0137") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -5694,7 +5702,7 @@
   (symbol (lib_id "Device:R_Small") (at 345.44 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ed851ca-a26d-4e82-b91f-35b33d23c2e4)
-    (property "Reference" "R134" (at 342.9 106.045 90)
+    (property "Reference" "R135" (at 342.9 106.045 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7k" (at 347.98 106.045 90)
@@ -5711,7 +5719,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "R134") (unit 1)
+          (reference "R135") (unit 1)
         )
       )
       (project "zorg_dmx_w_rtc"
@@ -5889,7 +5897,7 @@
   (symbol (lib_id "power:+3.3V") (at 345.44 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93c32001-e60c-486a-936f-f5060ff44915)
-    (property "Reference" "#PWR0136" (at 345.44 107.315 0)
+    (property "Reference" "#PWR0137" (at 345.44 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 345.44 99.695 0)
@@ -5905,7 +5913,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0136") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -6037,7 +6045,7 @@
   (symbol (lib_id "Device:R_Small") (at 337.185 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97f78bf1-fa6d-4628-827c-729d2889edc5)
-    (property "Reference" "R133" (at 334.645 106.045 90)
+    (property "Reference" "R134" (at 334.645 106.045 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7k" (at 339.725 106.045 90)
@@ -6054,7 +6062,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "R133") (unit 1)
+          (reference "R134") (unit 1)
         )
       )
       (project "zorg_dmx_w_rtc"
@@ -6189,7 +6197,7 @@
   (symbol (lib_id "power:+3.3V") (at 394.97 -137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0eeb05e-1b53-4e03-9f59-2852f64ff24f)
-    (property "Reference" "#PWR0139" (at 394.97 -133.985 0)
+    (property "Reference" "#PWR0140" (at 394.97 -133.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 394.97 -141.605 0)
@@ -6205,7 +6213,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -6214,7 +6222,7 @@
   (symbol (lib_id "Device:R_Small") (at 243.84 112.395 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a164c4d5-54d6-4993-ba2a-24795a033841)
-    (property "Reference" "R135" (at 243.84 109.855 90)
+    (property "Reference" "R132" (at 243.84 109.855 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7k" (at 243.84 114.935 90)
@@ -6226,12 +6234,12 @@
     (property "Datasheet" "~" (at 243.84 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fef5c943-c383-4fec-9bb7-130c6adc923d))
-    (pin "2" (uuid 67d5a810-147b-4a39-bf53-93702544cdad))
+    (pin "1" (uuid 2c20086c-756a-480d-a81e-147e5d4a55e9))
+    (pin "2" (uuid bfc191ff-68d7-4c0f-b268-e73d1bf5e7c9))
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "R135") (unit 1)
+          (reference "R132") (unit 1)
         )
       )
       (project "zorg_dmx_w_rtc"
@@ -6473,8 +6481,8 @@
     (property "Datasheet" "~" (at 250.19 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid caef80dc-310e-4b6c-96af-a027cbc18c4d))
-    (pin "2" (uuid fc7fe214-b3ed-45ba-910f-6e5812641cb4))
+    (pin "1" (uuid a80f5fd1-9f8c-4e15-8fbe-810c3adbd288))
+    (pin "2" (uuid 4d6e7b56-d8b8-4195-8ddc-17fa49c842a5))
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
@@ -6523,7 +6531,7 @@
   (symbol (lib_id "power:+3.3V") (at 434.34 -153.035 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid adb6ca27-c3b3-4450-b4de-db315c09744e)
-    (property "Reference" "#PWR0144" (at 434.34 -149.225 0)
+    (property "Reference" "#PWR0145" (at 434.34 -149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 434.34 -156.845 0)
@@ -6539,7 +6547,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -6915,7 +6923,7 @@
   (symbol (lib_id "power:+3.3V") (at 424.815 -137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c979e4fc-52de-45fd-ae43-884260ede89d)
-    (property "Reference" "#PWR0143" (at 424.815 -133.35 0)
+    (property "Reference" "#PWR0144" (at 424.815 -133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 424.815 -140.97 0)
@@ -6931,7 +6939,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0143") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -7031,7 +7039,7 @@
   (symbol (lib_id "power:+3.3V") (at 441.325 -153.035 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ced14e12-352b-48c7-bbf3-f3ccf7fc3e43)
-    (property "Reference" "#PWR0146" (at 441.325 -149.225 0)
+    (property "Reference" "#PWR0147" (at 441.325 -149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 441.325 -156.845 0)
@@ -7047,7 +7055,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0146") (unit 1)
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -7086,7 +7094,7 @@
   (symbol (lib_id "power:+3.3V") (at 337.185 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d30742da-1473-4e46-9863-7187e3b9e882)
-    (property "Reference" "#PWR0135" (at 337.185 107.315 0)
+    (property "Reference" "#PWR0136" (at 337.185 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 337.185 99.695 0)
@@ -7102,7 +7110,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0135") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
       )
     )
@@ -7480,7 +7488,7 @@
   (symbol (lib_id "power:GND") (at 335.915 -36.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f271a910-292e-47b3-9d77-64755848053d)
-    (property "Reference" "#PWR0134" (at 335.915 -29.845 0)
+    (property "Reference" "#PWR0135" (at 335.915 -29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 335.915 -32.0619 0)
@@ -7496,7 +7504,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
       )
     )
@@ -7627,7 +7635,7 @@
   (symbol (lib_id "power:GND") (at 506.095 -80.645 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fcd86484-1ac0-4c72-8c0b-9e935f902dac)
-    (property "Reference" "#PWR0150" (at 506.095 -74.295 0)
+    (property "Reference" "#PWR0151" (at 506.095 -74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 506.095 -76.5119 0)
@@ -7643,7 +7651,7 @@
     (instances
       (project "RPi_Zero_pHat_Template"
         (path "/a450a0d4-c7d3-4a7c-9dde-b064020ae2a8"
-          (reference "#PWR0150") (unit 1)
+          (reference "#PWR0151") (unit 1)
         )
       )
     )
