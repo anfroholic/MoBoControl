@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RPi_Zero_pHat_Template-rescue")(type "KiCad")(uri "${KIPRJMOD}/RPi_Zero_pHat_Template-rescue.kicad_sym")(options "")(descr ""))
+)
