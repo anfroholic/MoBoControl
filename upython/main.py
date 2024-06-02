@@ -29,6 +29,7 @@ def pulse_reset():
     print('reset pulsed')
 
 def pulse_power():
+    print('pulsing power')  
     mcp[pwr_pin].value(1)
     utime.sleep(1)
     mcp[pwr_pin].value(0)
