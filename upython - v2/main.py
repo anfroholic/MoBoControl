@@ -2,8 +2,9 @@ from machine import Pin, SoftI2C
 import utime
 import mcp23017
 
-i2c = SoftI2C(scl=Pin(25), sda=Pin(26), freq=100000)
+i2c = SoftI2C(scl=Pin(27), sda=Pin(26), freq=100000)
 print(i2c.scan()) # scan for devices
+led = Pin(2, Pin.OUT)
 
 mcp = mcp23017.MCP23017(i2c)
 time_between_frames = 5
