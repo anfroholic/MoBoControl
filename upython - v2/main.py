@@ -82,10 +82,35 @@ utime.sleep_ms(time_between_frames)
 mcp.pin(reset_pin, mode=0, value=0)
 utime.sleep_ms(time_between_frames)
 
-jumpers = {name: Jumper(mcp, pin[0], pin[1]) for name, pin in jumper_pins.values()}
+jumpers = {name: Jumper(mcp, pin[0], pin[1]) for name, pin in jumper_pins.items()}
 print('mcp23017 initted')
 
 def list_jumper_values():
     for k, v in jumpers.items():
         print(f"{k}: {v.value}")
+
+
+def beep():
+    print('posted')
     
+# spkr = Pin(34, Pin.IN)
+# spkr.irq(trigger=Pin.IRQ_RISING, handler=beep)
+
+# from machine import ADC
+# spkr = ADC(Pin(34))
+# spkr.atten(ADC.ATTN_11DB)
+# threshold = 5000
+
+# from machine import UART
+# uart = UART(1, baudrate=9600, tx=13, rx=35)
+# print(f'message: {uart.read()}' if uart.any() else '0')
+
+
+# while True:
+#     if spkr.read_u16() > threshold:
+#         print('posted')
+#         utime.sleep(1)
+    
+#     utime.sleep(.001)
+
+
